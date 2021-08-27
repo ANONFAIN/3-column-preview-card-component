@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+:root{
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Transparent-white: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray: hsl(0, 0%, 95%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+    Font-size: 15px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    
+}
+
+div.card-containder{
+    
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+
+ h1{
+    font-size: 3rem;
+    font-family: Big Shoulders Display;
+    color: var(--Very-light-gray);
+    margin-left:50px;
+   
+    
+}
+
+ p{
+    font-size: 1.1rem;
+    font-family: Lexend Deca;
+    color: var(--Transparent-white);
+    margin: 30px 50px 100px 50px;
+    line-height: 30px;
+    
+}
+
+ a{
+    text-decoration: none;
+    color: var(--Very-light-gray);
+    margin: 50px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 18px 35px; 
+
+    
+}
+
+
+div.item-card-1{
+    background-color: var(--Bright-orange);
+     height: 600px; 
+    
+}
+div.item-card-2{
+    background-color: var(--Dark-cyan);
+     height: 600px;
+    
+}
+div.item-card-3{
+    background-color: var(--Very-dark-cyan);
+    height: 600px;
+    
+}
+
+div.item-card-1 a{
+    color: var(--Bright-orange);
+}
+div.item-card-2 a{
+    color: var(--Dark-cyan);
+}
+div.item-card-3 a{
+    color: var(--Very-dark-cyan);
+}
+
+
+
+
+img {
+
+width: 80px;
+height: 50px;
+margin: 50px 0px 30px 50px;
+
+}
+
+@media only screen and (max-width: 768px){
+
+    body{
+        height:220vh;
+    }
+    div.card-containder{
+
+        flex-wrap: wrap;
+        margin:10px;
+    }
+    
+    div.item-card-1{
+        
+    }
+    div.item-card-2{
+        
+    }
+    div.item-card-3{
+        
+    }
+
+    
+}
+
+    
